@@ -1,6 +1,6 @@
 # Coroutines
 
-## Lesson-1
+# Lesson-1
  - function and thread
    - function is a sequence of instructions which need to execute
    - it takes input and gives output
@@ -23,6 +23,13 @@
      - coroutines are suspendable
      - they can switch their context
    - coroutines are lightweight threads with some useful extra functionality
-      
 
-      
+# Lesson-2
+
+## setup coroutines 
+    
+- add dependencies
+    ````
+     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    ````
